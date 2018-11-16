@@ -1,7 +1,16 @@
+body {
+    max-width: 1000px;
+    width: 600px;
+    min-width: 400px;
+}
 p {
     font-size: 20px;
 }
+h1 {
+    font-family: "Alex Brush";
+    margin: 30px auto;
+}
 .sissejuhatus {
-    font-family: "Augafina Script";
-    margin: 0 auto;
+    font-family: "Augafina Script",cursive;
+    margin: 30px auto;
 }
