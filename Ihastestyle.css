@@ -1,28 +1,39 @@
 body {
     background: #f2f2f2;
-    margin: 0 auto;
+     margin: 0 auto;
     }
 
-
 h1 {
+    font-size:30px;
     text-align: center;
     height: 300px;
     box-sizing: border-box;
     padding: 40px;
     width: 100%;
     position: relative;
-    top: 50px;
+    top: 100px;
 }
 
 header {
-  background-color: #466995;
+  background-color: rgb(76, 76, 76);
   border-bottom: 1px solid rgba(70, 105, 149, 0.22);
   position: fixed;
   width: 100%;
   z-index: 10;
+    top:0;
+    float:left;
 }
 
-div p {
+li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+    padding-left: 20px;
+    list-style-type: none;
+
+}
+
+div {
     color: #777777;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -34,31 +45,34 @@ div p {
 
 }
 
-p {
+.tekst {
     margin: 50px;
     font-size: 150%;
     padding: 15px;
-    border: 15px solid #e4e4e4;
+    border: 5px solid #e4e4e4;
 }
 
-ul {
+.list{
   margin: 30px auto;
   padding: 0 20px;
   text-align: center;
+
 }
 
-li {
-  color: #FFF;
+.link {
+  color: #f4f3f5;
   font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
   display: inline-block;
   width: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-li:hover {
-  color: #DBE9EE;
+a:hover {
+  color: #fafffb;
 
 }
 
@@ -76,11 +90,6 @@ li:hover {
     width: 50%;
 }
 
-.bullets{
-    position: fixed;
-}
-
-
 .pealkiri{
     border: 50px;
     color: inherit;
@@ -89,5 +98,9 @@ li:hover {
     border-left: 12px solid #c8c8d0;
     margin: 30px;
     font-size:25px;
+}
 
+img {
+
+    box-shadow: 13px 13px 13px 13px gray;
 }
