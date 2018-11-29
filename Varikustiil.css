@@ -12,7 +12,7 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template: 100px 40px 1fr / 1fr 10fr 1fr;
+    grid-template: 100px 40px 40px 1fr / 2fr 5fr 5fr 5fr 5fr 2fr;
 }
 p {
     font-size: 20px;
@@ -21,9 +21,32 @@ h1 {
     font-family: "Alex Brush";
     margin: 30px auto;
 }
+.menüü {
+    border: groove;
+    text-align: center;
+    background-color: rgb(100,250,50);
+    margin-top: 0;
+    padding-top: 8px;
+}
+#menüüosa1 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+#menüüosa2 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+#menüüosa3 {
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
+}
+#menüüosa4 {
+    grid-row: 3 / 4;
+    grid-column: 5 / 6;
+}
 .sissejuhatus {
     grid-row: 1 / 3;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 6;
 }
 .sissejuhatusepilt {
     font-family: "Pinyon Script";
@@ -39,7 +62,10 @@ h1 {
     padding-top: 50px;
     background-size: 100%;
 }
+.ääred {
+    
+}
 .sisu {
-    grid-row-start: 3;
-    grid-column: 2 / 3;
+    grid-row-start: 4;
+    grid-column: 2 / span 4 ;
 }
