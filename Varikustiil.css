@@ -22,7 +22,7 @@ h1 {
     margin: 30px auto;
 }
 .menüü {
-    border: groove;
+    border: outset;
     text-align: center;
     background-color: rgb(100,250,50);
     margin-top: 0;
