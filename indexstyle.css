@@ -34,6 +34,7 @@ h2 {
   padding: 0 20px;
   text-align: center;
 
+
 }
 
 .link {
@@ -42,10 +43,10 @@ h2 {
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
-  display: inline-block;
+  display:inline-block;
   width: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .tekst {
@@ -69,7 +70,52 @@ h2 {
 }
 
 .center {
- text-align:center;
-    display:block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
 
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 600px;
+    display:block;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+a:hover {
+    color: #fafffb;
 }
