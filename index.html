@@ -33,22 +33,31 @@
     </h2>
 
     <div class="container center">
-      <img src="anna.jpg" alt="Avatar" class="image center">
-      <div class="overlay">Anna Ulst</div>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://i.imgur.com/TcCBbEv.jpg" alt="Avatar" class="image center">
+        <div class="overlay">Anna Ulst</div>
     </div>
 
       <div class="container center">
-      <img src="oskar.jpg" alt="Avatar" class="image center">
-      <div class="overlay">Oskar Telgmaa</div>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://i.imgur.com/p3QXGUO.jpg" alt="Avatar" id="oskar" class="image center">
+          <div class="overlay">Oskar Daniel Telgmaa</div>
     </div>
 
       <div class="container center">
-      <img src="marten.jpg" alt="Avatar" class="image">
-      <div class="overlay">Marten Tamm</div>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://i.imgur.com/QvQUEqD.jpg" alt="Avatar" class="image">
+          <div class="overlay">Marten Tamm</div>
     </div>
 
+     <script>
+         function bigImg(x) {
+             x.style.height = "900px";
+             x.style.width = "900px";
+         }
 
-    <script src="indexjs.js"></script>
+         function normalImg(x) {
+             x.style.height = "600px";
+             x.style.width = "600px";
+         }
+     </script>
 
 </body>
 </html>
