@@ -6,11 +6,19 @@ h2{
     text-shadow: 3px 2px grey;
 }
 
+h3{
+    text-shadow: 3px 2px grey;
+}
+
 body {
     background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1637181/1160/772/m1/fpnw/wm0/oak_tree_v5_preview-.png?1473330374&s=2a60331e0ae42ede1c6ec9b5199986be");
     background-repeat: no-repeat;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 div.column {
     column-count: 2;
