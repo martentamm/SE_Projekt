@@ -25,25 +25,22 @@ header {
 }
 
 li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-    padding-left: 20px;
     list-style-type: none;
+    display: inline;
 
 }
 
-div {
-    color: #777777;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 80px;
-    position: fixed;
+/*div {*/
+    /*color: #777777;*/
+  /*font-family: 'Oswald', sans-serif;*/
+  /*font-size: 16px;*/
+  /*font-weight: 300;*/
+  /*text-transform: uppercase;*/
+  /*display: inline-block;*/
+  /*width: 80px;*/
+    /*position: fixed;*/
 
-}
+/*}*/
 
 .tekst {
     margin: 50px;
@@ -60,7 +57,7 @@ div {
 }
 
 .link {
-  color: #f4f3f5;
+  color: #b8bdb9;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   font-weight: 300;
