@@ -1,0 +1,92 @@
+h1{
+    text-shadow: 3px 2px grey;
+}
+
+h2{
+    text-shadow: 3px 2px grey;
+}
+
+h3{
+    text-shadow: 3px 2px grey;
+}
+
+body {
+    background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1637181/1160/772/m1/fpnw/wm0/oak_tree_v5_preview-.png?1473330374&s=2a60331e0ae42ede1c6ec9b5199986be");
+    background-repeat: no-repeat;
+    background-: 50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.column {
+    column-count: 2;
+    -webkit-column-gap: 2px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2px; /* Firefox */
+    column-gap: 2px;
+}
+div.relative1 {
+    position: relative;
+    left: 80px;
+}
+
+div.relative2 {
+    position: relative;
+    left: 90px;
+}
+div.relative3 {
+    position: relative;
+    left: 120px;
+}
+div.relative4 {
+    position: relative;
+    left: 140px;
+}
+
+div.relative5 {
+    position: relative;
+    left: 130px;
+}
+
+div.relative6 {
+    position: relative;
+    left: 100px;
+}
+div.relative7 {
+    position: relative;
+    left: 75px;
+}
+
+div.relative8 {
+    position: relative;
+    left: 40px;
+}
+
+div.relative9 {
+    position: relative;
+    left: 100px;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
