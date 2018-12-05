@@ -40,10 +40,10 @@ div.row:after {
 }
 
 div.gallery {
-     margin: 20px;
-     float: left;
-     width: 400px;
- }
+    margin: 20px;
+    float: left;
+    width: 400px;
+}
 
 div.gallery:hover {
     border: 1px solid #777;
